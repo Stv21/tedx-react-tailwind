@@ -9,7 +9,7 @@ const Tickets = () => {
 						Save your spots!
 					</h2>
 
-					<p class="hidden text-white sm:mt-4 sm:block">
+					<p class="sm:block text-white mt-4">
 						Watch out this section in the future to reserve your tickets for the
 						event.
 					</p>
