@@ -12,7 +12,7 @@ function App() {
 		const loading = () => {
 			setTimeout(() => {
 				setIsLoading(false);
-			}, 3000);
+			}, 4000);
 		};
 		loading();
 	}, []);
