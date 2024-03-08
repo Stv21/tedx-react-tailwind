@@ -44,8 +44,7 @@ const Speakers = () => {
 	return (
 		<div
 			className="speakersSection relative h-fit w-screen bg-cover bg-center bg-no-repeat"
-			style={{ backgroundImage: `url(${backgroundImage})` }}
-		>
+			style={{ backgroundImage: `url(${backgroundImage})` }}>
 			<div className="flex flex-col items-center">
 				<div className="heroText py-40 text-center font-tek text-white text-5xl">
 					<span className="font-tek text-red-500">
@@ -60,8 +59,7 @@ const Speakers = () => {
 					{speakersData.map(({ id, name, description }) => (
 						<div
 							key={id}
-							className="speaker bg-gray-500 bg-opacity-40 p-4 rounded-lg text-center mx-2 mb-8"
-						>
+							className="speaker bg-gray-500 bg-opacity-40 p-4 rounded-lg text-center mx-2 mb-8">
 							<p className="text-white text-lg font-extrabold mb-2">{name}</p>
 							<p className="text-white text-sm">{description}</p>
 						</div>

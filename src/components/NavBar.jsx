@@ -34,8 +34,7 @@ const NavBar = () => {
 				{links.map(({ id, link, text }) => (
 					<li
 						key={id}
-						className="px-4 cursor-pointer capitalize text-white hover:text-red-400 duration-200"
-					>
+						className="px-4 cursor-pointer capitalize text-white font-semibold hover:text-red-400 duration-200">
 						<Link to={link} smooth duration={200}>
 							{text}
 						</Link>
@@ -45,31 +44,21 @@ const NavBar = () => {
 					<a
 						href="https://www.instagram.com/tedxxie/"
 						target="_blank"
-						rel="noopener noreferrer"
-					>
+						rel="noopener noreferrer">
 						View Highlights
 					</a>
 				</li>
 			</ul>
 			<div
 				onClick={() => setNav(!nav)}
-				className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
-			>
+				className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
 				{nav ? <FaTimes size={30} /> : <FaBars size={30} />}
 			</div>
 			{nav && (
 				<ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-screen h-screen bg-black text-white">
 					{links.map(({ id, link, text }) => (
-						<li
-							key={id}
-							className="px-4 cursor-pointer capitalize py-5 text-4xl"
-						>
-							<Link
-								onClick={() => setNav(!nav)}
-								to={link}
-								smooth
-								duration={200}
-							>
+						<li key={id} className="px-4 cursor-pointer capitalize py-5 text-4xl">
+							<Link onClick={() => setNav(!nav)} to={link} smooth duration={200}>
 								{text}
 							</Link>
 						</li>
@@ -78,8 +67,7 @@ const NavBar = () => {
 						<a
 							href="https://www.instagram.com/tedxxie/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							View Highlights
 						</a>
 					</li>
