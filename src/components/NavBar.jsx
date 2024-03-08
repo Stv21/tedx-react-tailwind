@@ -10,18 +10,18 @@ const NavBar = () => {
 	const links = [
 		{
 			id: 1,
+			link: "venueSection",
+			text: "Venue",
+		},
+		{
+			id: 2,
 			link: "speakersSection",
 			text: "Speakers",
 		},
 		{
-			id: 2,
-			link: "scheduleSection",
-			text: "Schedule",
-		},
-		{
 			id: 3,
-			link: "partnersSection",
-			text: "Partners",
+			link: "ticketsSection",
+			text: "Save Your Spots",
 		},
 	];
 

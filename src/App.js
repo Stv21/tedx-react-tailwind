@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Info from "./components/Info";
 import NavBar from "./components/NavBar";
 import Speakers from "./components/Speakers";
+import Tickets from "./components/Tickets";
 import Loader from "./components/Loader";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 			<Home />
 			<Speakers />
 			<Info />
+			<Tickets />
 			<Footer />
 		</div>
 	);
