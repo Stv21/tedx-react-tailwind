@@ -27,7 +27,7 @@ const Speakers = () => {
 		},
 		{
 			id: 5,
-			name: "Roop Varma",
+			name: "Roop Verma",
 			description: "Lawyer, CS",
 		},
 	];
