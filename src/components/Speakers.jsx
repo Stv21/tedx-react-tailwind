@@ -36,7 +36,7 @@ const Speakers = () => {
 			className="speakersSection relative h-fit w-screen bg-cover bg-center bg-no-repeat"
 			style={{ backgroundImage: `url(${backgroundImage})` }}>
 			<div className="flex flex-col items-center">
-				<div className="heroText py-40 text-center font-tek text-white text-5xl">
+				<div className="heroText py-40 px-4 text-center font-tek text-white text-5xl">
 					Meet Our Keynote Speakers for{" "}
 					<span className="font-tek text-red-500">
 						TED<sup>x</sup>
