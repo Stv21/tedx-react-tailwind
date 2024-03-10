@@ -30,6 +30,11 @@ const Speakers = () => {
 			name: "Roop Verma",
 			description: "Lawyer, CS",
 		},
+		{
+			id: 6,
+			name: "Ravi Kewalramani",
+			description: "Director of RK Mumbai Realtors",
+		},
 	];
 	return (
 		<div
