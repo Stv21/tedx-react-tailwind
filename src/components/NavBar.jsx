@@ -23,6 +23,11 @@ const NavBar = () => {
 			link: "ticketsSection",
 			text: "Save Your Spots",
 		},
+		{
+			id: 4,
+			link: "sponsors",
+			text: "Sponsors",
+		},
 	];
 
 	return (

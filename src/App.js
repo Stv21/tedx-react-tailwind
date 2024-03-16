@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import Speakers from "./components/Speakers";
 import Tickets from "./components/Tickets";
 import Loader from "./components/Loader";
+import Sponsors from "./components/Sponsors";
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -28,9 +29,11 @@ function App() {
 			<Speakers />
 			<Info />
 			<Tickets />
+			<Sponsors />
 			<Footer />
 			<Analytics />
 			<SpeedInsights />
+			
 		</div>
 	);
 }
